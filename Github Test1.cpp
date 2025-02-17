@@ -1,5 +1,39 @@
 
 #include <iostream>
+#include <random>
+#include <ehdata_forceinclude.h>
+#include "Windows.h"
+
+/*
+ITINERARY FOR TODAY
+-------------------
+Today is February 17, Monday
+
+
+To-do:
+
+- Player class
+- Movement class
+- Camera class
+- Devise tree
+
+Doing:
+
+
+
+Done:
+
+
+
+
+*/
+
+void handleColour()
+{
+    srand(time(0));
+    int random = rand() % 15;
+
+    HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
 
     if (random <= 9)
     {
@@ -27,6 +61,16 @@
 
 int main()
 {
-    std::cout << "Land of the rising Sun\n";
-}
+    handleColour();
 
+    std::cout << "Land of the rising Sun\n";
+    std::cout << "Main 1 test - Ainsley\n";
+
+    std::cout << "Test 2 - Wilson" << std::endl;
+    std::cout << "Test 3 - Mathea" << std::endl;
+    std::cout << "Test 4 - Yong Quan" << std::endl;
+  
+
+
+
+}
