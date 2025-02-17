@@ -15,5 +15,15 @@ int main()
     //fdghfhfh
     //urue5
     // reutnr 34334
+
+    auto autoauto = 3.14159265358979323846264338327950288419;
+
+   /*
+   what does a rabbit and grape have in common
+   
+
+   both are purple, except for the rabbit
+   
+   */
 }
 
